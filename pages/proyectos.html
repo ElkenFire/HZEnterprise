@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyectos de HZEnterprise - Conoce nuestro trabajo en desarrollo web, software, automatización y consultoría TI.">
+    <meta name="keywords" content="proyectos desarrollo web, portfolio, casos de éxito, HZEnterprise, Chile">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Proyectos - HZEnterprise">
+    <meta property="og:description" content="Conoce los proyectos que hemos desarrollado para nuestros clientes.">
+    <meta property="og:url" content="https://hzenterprise.cl/pages/proyectos.html">
+    <meta property="og:type" content="website">
+
+    <title>Proyectos - HZEnterprise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="navbar-inner">
+            <a href="../index.html" class="logo" aria-label="HZEnterprise - Inicio">
+                <svg class="logo-svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="6" fill="url(#logoGrad)"/>
+                    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Inter" font-weight="900" font-size="11">HZ</text>
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                            <stop stop-color="#2563EB"/>
+                            <stop offset="1" stop-color="#06B6D4"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>HZEnterprise</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="proyectos.html" class="active">Proyectos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="contacto.html" class="btn btn-primary btn-nav">Solicitar proyecto</a>
+                </li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menú de navegación">
+        <a href="../index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="contacto.html" class="btn btn-primary btn-full">Solicitar proyecto</a>
+    </div>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="../index.html">Inicio</a>
+                <span class="separator">/</span>
+                <span class="current">Proyectos</span>
+            </nav>
+            <h1>Nuestros Proyectos</h1>
+            <p>Una selección de trabajos que demuestran nuestras capacidades, experiencia y forma de resolver problemas reales.</p>
+        </div>
+    </section>
+
+    <!-- ========== FILTROS ========== -->
+    <section class="section section-light" style="padding-bottom: 2rem;">
+        <div class="container">
+            <div class="projects-filter fade-in" role="tablist" aria-label="Filtrar proyectos por categoría">
+                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+                <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web</button>
+                <button class="filter-btn" data-filter="software" role="tab" aria-selected="false">Software</button>
+                <button class="filter-btn" data-filter="automatizacion" role="tab" aria-selected="false">Automatización</button>
+                <button class="filter-btn" data-filter="desarrollo" role="tab" aria-selected="false">En desarrollo</button>
+            </div>
+
+            <div class="projects-count fade-in">
+                Mostrando <strong id="projectCount">8</strong> proyectos
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GRID DE PROYECTOS ========== -->
+    <section class="section section-light" style="padding-top: 1rem;">
+        <div class="container">
+            <div class="projects-grid" id="projectsGrid">
+
+                <!-- Proyecto 1 -->
+                <article class="project-card fade-in" data-category="web" data-project="psicologa">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&q=80" alt="Sitio web para psicóloga" loading="lazy">
+                        <span class="project-status status-completed">Completado</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Desarrollo Web</span>
+                        <h3>Sitio web Psicóloga</h3>
+                        <p>Sitio web profesional para servicios de psicología con agenda online.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-blue">HTML</span>
+                            <span class="tag tag-blue">CSS</span>
+                            <span class="tag tag-blue">JS</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card fade-in" data-category="software" data-project="inventario">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Sistema de inventario" loading="lazy">
+                        <span class="project-status status-completed">Completado</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Software</span>
+                        <h3>Sistema de Inventario</h3>
+                        <p>Gestión completa de productos, stock, ventas y reportes automáticos.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-purple">Python</span>
+                            <span class="tag tag-purple">SQLite</span>
+                            <span class="tag tag-purple">Git</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card fade-in" data-category="desarrollo" data-project="plataforma">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80" alt="Plataforma social profesional" loading="lazy">
+                        <span class="project-status status-progress">En desarrollo</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Desarrollo Web</span>
+                        <h3>Plataforma Social-Profesional</h3>
+                        <p>Red de conexión entre profesionales con perfiles, mensajes y matching.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-blue">Web</span>
+                            <span class="tag tag-purple">API</span>
+                            <span class="tag tag-red">React</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 4 -->
+                <article class="project-card fade-in" data-category="automatizacion" data-project="pyme">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Automatización PYME" loading="lazy">
+                        <span class="project-status status-completed">Completado</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Automatización</span>
+                        <h3>Automatización PYME</h3>
+                        <p>Automatización de procesos, reportes automáticos y dashboards en tiempo real.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-purple">Python</span>
+                            <span class="tag tag-green">Excel</span>
+                            <span class="tag tag-blue">APIs</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 5 -->
+                <article class="project-card fade-in" data-category="web" data-project="hzenterprise">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80" alt="Sitio web corporativo HZEnterprise" loading="lazy">
+                        <span class="project-status status-completed">Completado</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Desarrollo Web</span>
+                        <h3>Sitio web Corporativo (HZEnterprise)</h3>
+                        <p>Sitio web principal de la empresa con múltiples secciones y formulario de contacto.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-blue">HTML</span>
+                            <span class="tag tag-blue">CSS</span>
+                            <span class="tag tag-blue">JS</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 6 -->
+                <article class="project-card fade-in" data-category="software" data-project="dashboard">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Dashboard de ventas" loading="lazy">
+                        <span class="project-status status-completed">Completado</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Software</span>
+                        <h3>Dashboard de Ventas</h3>
+                        <p>Panel de control con métricas en tiempo real, gráficos y exportación de reportes.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-purple">Python</span>
+                            <span class="tag tag-blue">Chart.js</span>
+                            <span class="tag tag-green">PostgreSQL</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 7 -->
+                <article class="project-card fade-in" data-category="automatizacion" data-project="whatsapp-bot">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&q=80" alt="Bot de WhatsApp" loading="lazy">
+                        <span class="project-status status-completed">Completado</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Automatización</span>
+                        <h3>Bot de WhatsApp</h3>
+                        <p>Chatbot automatizado para atención al cliente, reservas y consultas frecuentes.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-green">Node.js</span>
+                            <span class="tag tag-purple">API WhatsApp</span>
+                            <span class="tag tag-blue">MongoDB</span>
+                        </div>
+                        <button class="project-view-btn" aria-label="Ver detalles del proyecto">
+                            Ver detalles
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 8 - Próximamente -->
+                <article class="project-card project-card-more fade-in">
+                    <div class="plus-icon">+</div>
+                    <h3>Más proyectos</h3>
+                    <p>Nuevas ideas en desarrollo. Pronto más casos de éxito.</p>
+                    <span class="tag tag-orange">Próximamente</span>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MODAL DE PROYECTO ========== -->
+    <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6L18 18" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImg" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <span class="project-category" id="modalCategory"></span>
+                    <h2 id="modalTitle"></h2>
+                    <p class="modal-description" id="modalDescription"></p>
+
+                    <div class="modal-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Cliente</span>
+                            <span class="meta-value" id="modalClient"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Duración</span>
+                            <span class="meta-value" id="modalDuration"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Rol</span>
+                            <span class="meta-value" id="modalRole"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Estado</span>
+                            <span class="meta-value" id="modalStatus"></span>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h4>Desafío</h4>
+                        <p id="modalChallenge"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h4>Solución</h4>
+                        <p id="modalSolution"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <h4>Tecnologías</h4>
+                        <div class="project-tags" id="modalTech"></div>
+                    </div>
+
+                    <div class="modal-actions">
+                        <a href="contacto.html" class="btn btn-primary">
+                            Quiero un proyecto similar
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-section">
+        <div class="cta-bg"></div>
+        <div class="cta-content fade-in">
+            <span class="section-label">¿Te gustó lo que viste?</span>
+            <h2>Hagamos tu próximo proyecto</h2>
+            <p>Cuéntanos tu idea y te mostramos cómo podemos hacerla realidad.</p>
+            <div class="cta-buttons">
+                <a href="contacto.html" class="btn btn-primary">
+                    Solicitar proyecto
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/56912345678?text=Hola!%20Vi%20sus%20proyectos%20y%20quiero%20cotizar%20algo%20similar" target="_blank" rel="noopener" class="btn btn-outline">
+                    Hablar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-inner container">
+            <p>© 2026 HZEnterprise. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="../index.html">Inicio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/56912345678?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20sus%20servicios" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+            <path d="M8 13V3M8 3L4 7M8 3L12 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/proyectos.js"></script>
+</body>
+</html>

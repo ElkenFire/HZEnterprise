@@ -1,0 +1,36 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editores de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias (si usas npm en el futuro)
+node_modules/
+package-lock.json
+package.json
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Build (si agregas proceso de build después)
+dist/
+build/
+out/
+
+# Imágenes grandes (opcional, si no quieres subirlas)
+# img/hero/*.jpg
+# img/proyectos/*.jpg

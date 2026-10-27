@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce HZEnterprise - Empresa de soluciones tecnológicas enfocada en desarrollo web, software y automatización. Tecnología con propósito.">
+    <meta name="keywords" content="HZEnterprise, sobre nosotros, empresa tecnológica, Chile, desarrollo web, automatización">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nosotros - HZEnterprise">
+    <meta property="og:description" content="Tecnología con propósito para generar valor real en personas y negocios.">
+    <meta property="og:url" content="https://hzenterprise.cl/pages/nosotros.html">
+    <meta property="og:type" content="website">
+
+    <title>Nosotros - HZEnterprise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="navbar-inner">
+            <a href="../index.html" class="logo" aria-label="HZEnterprise - Inicio">
+                <svg class="logo-svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="6" fill="url(#logoGrad)"/>
+                    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Inter" font-weight="900" font-size="11">HZ</text>
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                            <stop stop-color="#2563EB"/>
+                            <stop offset="1" stop-color="#06B6D4"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>HZEnterprise</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="nosotros.html" class="active">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="contacto.html" class="btn btn-primary btn-nav">Solicitar proyecto</a>
+                </li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menú de navegación">
+        <a href="../index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="contacto.html" class="btn btn-primary btn-full">Solicitar proyecto</a>
+    </div>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="../index.html">Inicio</a>
+                <span class="separator">/</span>
+                <span class="current">Nosotros</span>
+            </nav>
+            <h1>Sobre HZEnterprise</h1>
+            <p>Tecnología con propósito para generar valor real en personas y negocios.</p>
+        </div>
+    </section>
+
+    <!-- ========== INTRODUCCIÓN ========== -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="about-intro">
+                <div class="about-intro-image fade-in-left">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Espacio de trabajo moderno" loading="lazy">
+                </div>
+                <div class="about-intro-content fade-in-right">
+                    <span class="section-label">Quiénes somos</span>
+                    <h2 class="section-title">Tecnología con propósito</h2>
+                    <p class="about-lead">Somos una empresa enfocada en desarrollar soluciones tecnológicas que generen valor real. No solo escribimos código: entendemos problemas, diseñamos estrategias y construimos herramientas que transforman la forma en que trabajas.</p>
+                    <p>Creemos que la tecnología debe ser accesible, útil y bien hecha. Por eso trabajamos de cerca con cada cliente, entendiendo sus necesidades antes de proponer soluciones.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Enfoque práctico</strong>
+                                <p>Soluciones que funcionan, no solo se ven bien.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="9" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Trabajo cercano</strong>
+                                <p>Comunicación directa, sin intermediarios.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MISIÓN Y VISIÓN ========== -->
+    <section class="section section-white">
+        <div class="container">
+            <div class="mission-vision-grid">
+                <div class="mv-card fade-in">
+                    <div class="mv-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="6" stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Misión</h3>
+                    <p>Desarrollar soluciones tecnológicas accesibles y de calidad que ayuden a personas y empresas a resolver problemas reales, optimizar procesos y alcanzar sus objetivos de manera eficiente.</p>
+                </div>
+
+                <div class="mv-card fade-in fade-in-delay-1">
+                    <div class="mv-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M1 12S5 4 12 4S23 12 23 12S19 20 12 20S1 12 1 12Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="12" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Visión</h3>
+                    <p>Ser referentes en desarrollo tecnológico en Chile, reconocidos por nuestra calidad, transparencia y compromiso con cada proyecto. Queremos que cada cliente sienta que tiene un socio tecnológico, no solo un proveedor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== VALORES ========== -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header section-header-center fade-in">
+                <span class="section-label">Lo que nos define</span>
+                <h2 class="section-title">Nuestros valores</h2>
+                <p class="section-subtitle">Principios que guían cada decisión y cada proyecto que emprendemos.</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card fade-in">
+                    <div class="value-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 18V5L21 3V16" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="6" cy="18" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="18" cy="16" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4>Innovación</h4>
+                    <p>Buscamos soluciones creativas a problemas reales, siempre explorando nuevas tecnologías y enfoques.</p>
+                </div>
+
+                <div class="value-card fade-in fade-in-delay-1">
+                    <div class="value-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22S8 18 8 13.5V9L12 5L16 9V13.5C16 18 12 22 12 22Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 12L11 14L15 10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4>Compromiso</h4>
+                    <p>Nos involucramos en cada proyecto como si fuera propio, garantizando calidad y resultados.</p>
+                </div>
+
+                <div class="value-card fade-in fade-in-delay-2">
+                    <div class="value-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.7649 14.1003 1.98232 16.07 2.85999" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 4L12 14.01L9 11.01" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4>Resultados</h4>
+                    <p>Enfocados en generar impacto medible y valor a largo plazo para nuestros clientes.</p>
+                </div>
+
+                <div class="value-card fade-in">
+                    <div class="value-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M1 12S5 4 12 4S23 12 23 12S19 20 12 20S1 12 1 12Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="12" r="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4>Transparencia</h4>
+                    <p>Comunicación clara y honesta en cada etapa del proyecto, sin sorpresas ni letra pequeña.</p>
+                </div>
+
+                <div class="value-card fade-in fade-in-delay-1">
+                    <div class="value-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" stroke-linecap="round"/>
+                            <path d="M12 6V12L16 14" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4>Puntualidad</h4>
+                    <p>Cumplimos los plazos acordados. Tu tiempo es valioso y lo respetamos.</p>
+                </div>
+
+                <div class="value-card fade-in fade-in-delay-2">
+                    <div class="value-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h4>Calidad</h4>
+                    <p>Código limpio, diseño cuidado y soluciones robustas. No entregamos nada que no usaríamos nosotros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FUNDADOR ========== -->
+    <section class="section section-white">
+        <div class="container">
+            <div class="founder-section">
+                <div class="founder-image fade-in-left">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80" alt="Fundador de HZEnterprise" loading="lazy">
+                    <div class="founder-badge">
+                        <span>Fundador & Desarrollador</span>
+                    </div>
+                </div>
+                <div class="founder-content fade-in-right">
+                    <span class="section-label">Detrás del proyecto</span>
+                    <h2 class="section-title">Hola, soy el fundador de HZEnterprise</h2>
+                    <p class="founder-lead">Desarrollador apasionado por crear soluciones tecnológicas que realmente funcionen. Mi objetivo es ayudarte a transformar tus ideas en realidad, con código limpio, diseño moderno y un enfoque práctico.</p>
+                    
+                    <div class="founder-details">
+                        <div class="detail-item">
+                            <strong>Experiencia</strong>
+                            <span>Desarrollo web, software y automatización</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Stack principal</strong>
+                            <span>HTML, CSS, JavaScript, Python, React, Node.js</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Enfoque</strong>
+                            <span>Soluciones a medida, comunicación directa, resultados medibles</span>
+                        </div>
+                    </div>
+
+                    <blockquote class="founder-quote">
+                        <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V11C14.017 11.5523 13.5693 12 13.017 12H12.017V5H22.017V15C22.017 18.3137 19.3307 21 16.017 21H14.017ZM5.0166 21L5.0166 18C5.0166 16.8954 5.91203 16 7.0166 16H10.0166C10.5689 16 11.0166 15.5523 11.0166 15V9C11.0166 8.44772 10.5689 8 10.0166 8H6.0166C5.46432 8 5.0166 8.44772 5.0166 9V11C5.0166 11.5523 4.56889 12 4.0166 12H3.0166V5H13.0166V15C13.0166 18.3137 10.3303 21 7.0166 21H5.0166Z"/>
+                        </svg>
+                        <p>"Creo que la tecnología debe estar al servicio de las personas, no al revés. Por eso me enfoco en entender primero el problema, y luego construir la solución adecuada."</p>
+                    </blockquote>
+
+                    <div class="founder-cta">
+                        <a href="contacto.html" class="btn btn-primary">
+                            Conversemos sobre tu proyecto
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TIMELINE ========== -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header section-header-center fade-in">
+                <span class="section-label">Nuestra historia</span>
+                <h2 class="section-title">Cómo llegamos aquí</h2>
+                <p class="section-subtitle">Un camino de aprendizaje constante y proyectos que nos han formado.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2024</span>
+                        <h3>Los primeros pasos</h3>
+                        <p>Comencé a aprender desarrollo web y programación por cuenta propia. Proyectos personales, tutoriales y mucha curiosidad. Ahí nació la pasión por construir cosas con código.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2025</span>
+                        <h3>Primeros clientes reales</h3>
+                        <p>Empecé a tomar proyectos pequeños: sitios web para emprendedores, automatizaciones simples. Cada proyecto fue una escuela: aprendí de los errores, de los aciertos y de las necesidades reales de los clientes.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2026</span>
+                        <h3>Nace HZEnterprise</h3>
+                        <p>Formalicé la empresa con una visión clara: ofrecer soluciones tecnológicas profesionales, accesibles y bien hechas. Con un portafolio creciendo y clientes satisfechos, seguimos construyendo el camino.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="timeline-year">Hoy</span>
+                        <h3>Seguimos creciendo</h3>
+                        <p>Continuamos aprendiendo, mejorando y tomando nuevos desafíos. Cada proyecto es una oportunidad para entregar valor real y construir relaciones de largo plazo con nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== POR QUÉ ELEGIRNOS ========== -->
+    <section class="section section-white">
+        <div class="container">
+            <div class="section-header section-header-center fade-in">
+                <span class="section-label">Por qué HZEnterprise</span>
+                <h2 class="section-title">Razones para trabajar con nosotros</h2>
+                <p class="section-subtitle">No somos la empresa más grande, pero sí la que más se preocupa por tu proyecto.</p>
+            </div>
+
+            <div class="reasons-grid">
+                <div class="reason-card fade-in">
+                    <div class="reason-number">01</div>
+                    <h4>Atención personalizada</h4>
+                    <p>Tratas directamente con quien desarrolla tu proyecto. Sin intermediarios, sin llamadas eternas, sin malentendidos.</p>
+                </div>
+
+                <div class="reason-card fade-in fade-in-delay-1">
+                    <div class="reason-number">02</div>
+                    <h4>Precios transparentes</h4>
+                    <p>Sabes cuánto cuesta antes de empezar. Sin costos ocultos, sin sorpresas. Cotización clara y detallada.</p>
+                </div>
+
+                <div class="reason-card fade-in fade-in-delay-2">
+                    <div class="reason-number">03</div>
+                    <h4>Código de calidad</h4>
+                    <p>Entregamos código limpio, documentado y mantenible. Tu proyecto será fácil de escalar y modificar en el futuro.</p>
+                </div>
+
+                <div class="reason-card fade-in">
+                    <div class="reason-number">04</div>
+                    <h4>Soporte post-lanzamiento</h4>
+                    <p>No te dejamos solo después de entregar. Incluimos soporte para asegurar que todo funcione perfectamente.</p>
+                </div>
+
+                <div class="reason-card fade-in fade-in-delay-1">
+                    <div class="reason-number">05</div>
+                    <h4>Flexibilidad</h4>
+                    <p>Nos adaptamos a tu ritmo, tu presupuesto y tus necesidades. Soluciones a medida, no plantillas genéricas.</p>
+                </div>
+
+                <div class="reason-card fade-in fade-in-delay-2">
+                    <div class="reason-number">06</div>
+                    <h4>Compromiso real</h4>
+                    <p>Tu éxito es nuestro éxito. Trabajamos como socios, no como proveedores. Tu proyecto nos importa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-section">
+        <div class="cta-bg"></div>
+        <div class="cta-content fade-in">
+            <span class="section-label">¿Te identificas con lo que hacemos?</span>
+            <h2>Construyamos algo juntos</h2>
+            <p>Estamos listos para escuchar tu idea y convertirla en realidad. Hablemos.</p>
+            <div class="cta-buttons">
+                <a href="contacto.html" class="btn btn-primary">
+                    Iniciar conversación
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/56912345678?text=Hola!%20Conocí%20HZEnterprise%20y%20quiero%20saber%20más" target="_blank" rel="noopener" class="btn btn-outline">
+                    Hablar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-inner container">
+            <p>© 2026 HZEnterprise. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="../index.html">Inicio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/56912345678?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20HZEnterprise" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+            <path d="M8 13V3M8 3L4 7M8 3L12 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

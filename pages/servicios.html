@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios de HZEnterprise - Desarrollo web, software, automatización y consultoría TI con precios transparentes.">
+    <meta name="keywords" content="desarrollo web Chile, precios desarrollo web, automatización, consultoría TI, HZEnterprise">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Servicios - HZEnterprise">
+    <meta property="og:description" content="Desarrollo web, software, automatización y consultoría TI. Precios transparentes.">
+    <meta property="og:url" content="https://hzenterprise.cl/pages/servicios.html">
+    <meta property="og:type" content="website">
+
+    <title>Servicios - HZEnterprise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="navbar-inner">
+            <a href="../index.html" class="logo" aria-label="HZEnterprise - Inicio">
+                <svg class="logo-svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="6" fill="url(#logoGrad)"/>
+                    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Inter" font-weight="900" font-size="11">HZ</text>
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                            <stop stop-color="#2563EB"/>
+                            <stop offset="1" stop-color="#06B6D4"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>HZEnterprise</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.html" class="active">Servicios</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="contacto.html" class="btn btn-primary btn-nav">Solicitar proyecto</a>
+                </li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menú de navegación">
+        <a href="../index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="contacto.html" class="btn btn-primary btn-full">Solicitar proyecto</a>
+    </div>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="../index.html">Inicio</a>
+                <span class="separator">/</span>
+                <span class="current">Servicios</span>
+            </nav>
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones tecnológicas a medida con precios transparentes. Desde ideas simples hasta proyectos complejos.</p>
+        </div>
+    </section>
+
+    <!-- ========== SERVICIOS DETALLADOS ========== -->
+    <section class="section section-light" id="servicios">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-label">Qué ofrecemos</span>
+                <h2 class="section-title">Servicios especializados</h2>
+                <p class="section-subtitle">Cada servicio está diseñado para resolver problemas reales y generar valor medible.</p>
+            </div>
+
+            <div class="services-detail-list">
+                <!-- Servicio 1 -->
+                <article class="service-detail fade-in">
+                    <div class="service-detail-icon blue">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke-linecap="round"/>
+                            <path d="M3 12H21M12 3C14.5 5.5 16 8.5 16 12C16 15.5 14.5 18.5 12 21C9.5 18.5 8 15.5 8 12C8 8.5 9.5 5.5 12 3Z" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Desarrollo Web</h3>
+                        <p class="service-detail-desc">Creamos sitios web modernos, rápidos y optimizados para convertir visitantes en clientes. Desde landing pages hasta plataformas completas de e-commerce.</p>
+                        <div class="service-detail-features">
+                            <div class="feature-column">
+                                <h4>Incluye:</h4>
+                                <ul>
+                                    <li>Sitios corporativos y landing pages</li>
+                                    <li>Portales web y e-commerce</li>
+                                    <li>Diseño responsive (móvil, tablet, desktop)</li>
+                                    <li>SEO básico on-page</li>
+                                </ul>
+                            </div>
+                            <div class="feature-column">
+                                <h4>Ideal para:</h4>
+                                <ul>
+                                    <li>Empresas que necesitan presencia online</li>
+                                    <li>Profesionales independientes</li>
+                                    <li>Negocios que quieren vender online</li>
+                                    <li>Proyectos que requieren escalabilidad</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-detail-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Servicio 2 -->
+                <article class="service-detail fade-in">
+                    <div class="service-detail-icon purple">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M8 9L4 12L8 15M16 9L20 12L16 15M14 5L10 19" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Desarrollo de Software</h3>
+                        <p class="service-detail-desc">Aplicaciones a medida que resuelven problemas reales de tu negocio. Sistemas internos, APIs y bases de datos diseñadas para escalar contigo.</p>
+                        <div class="service-detail-features">
+                            <div class="feature-column">
+                                <h4>Incluye:</h4>
+                                <ul>
+                                    <li>Aplicaciones web y de escritorio</li>
+                                    <li>APIs REST e integraciones</li>
+                                    <li>Bases de datos relacionales y NoSQL</li>
+                                    <li>Sistemas de gestión (ERP, CRM)</li>
+                                </ul>
+                            </div>
+                            <div class="feature-column">
+                                <h4>Ideal para:</h4>
+                                <ul>
+                                    <li>Empresas con procesos únicos</li>
+                                    <li>Startups que necesitan un MVP</li>
+                                    <li>Automatización de operaciones internas</li>
+                                    <li>Productos digitales escalables</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-detail-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Servicio 3 -->
+                <article class="service-detail fade-in">
+                    <div class="service-detail-icon green">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke-linecap="round"/>
+                            <path d="M19.4 15C19.7333 14.3333 20 13.6667 20 13C20 11 18 9 16 9H15.5C15.1667 7.66667 14.3333 6.5 13.2 5.7L14 4L12 3L11.2 4.7C10.4667 4.9 9.8 5.26667 9.2 5.8L7.5 5L6.5 7L8.2 7.8C7.86667 8.46667 7.66667 9.2 7.6 10H6C4 10 2 12 2 14C2 14.6667 2.26667 15.3333 2.6 16" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 17L17 20L22 15" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Automatización</h3>
+                        <p class="service-detail-desc">Optimizamos tus procesos para ahorrar tiempo y reducir errores. Desde automatizaciones simples hasta flujos complejos con dashboards en tiempo real.</p>
+                        <div class="service-detail-features">
+                            <div class="feature-column">
+                                <h4>Incluye:</h4>
+                                <ul>
+                                    <li>Automatización de tareas repetitivas</li>
+                                    <li>Integración entre sistemas</li>
+                                    <li>Reportería automática</li>
+                                    <li>Dashboards y monitoreo</li>
+                                </ul>
+                            </div>
+                            <div class="feature-column">
+                                <h4>Ideal para:</h4>
+                                <ul>
+                                    <li>Empresas con procesos manuales</li>
+                                    <li>Equipos que pierden tiempo en tareas repetitivas</li>
+                                    <li>Negocios que necesitan datos en tiempo real</li>
+                                    <li>Reducción de errores operativos</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-detail-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Excel/Google Sheets</span>
+                            <span class="tech-tag">APIs</span>
+                            <span class="tech-tag">Zapier</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Servicio 4 -->
+                <article class="service-detail fade-in">
+                    <div class="service-detail-icon cyan">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 20C17 18.3431 15.2091 17 13 17H7C4.79086 17 3 18.3431 3 20M21 20C21 18.3431 19.2091 17 17 17M17 20V17M10 9C11.6569 9 13 7.65685 13 6C13 4.34315 11.6569 3 10 3C8.34315 3 7 4.34315 7 6C7 7.65685 8.34315 9 10 9ZM21 13C21 11.3431 19.6569 10 18 10C16.3431 10 15 11.3431 15 13" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="service-detail-content">
+                        <h3>Consultoría TI</h3>
+                        <p class="service-detail-desc">Te acompañamos en la toma de decisiones tecnológicas. Evaluamos, planificamos e implementamos soluciones alineadas con tus objetivos de negocio.</p>
+                        <div class="service-detail-features">
+                            <div class="feature-column">
+                                <h4>Incluye:</h4>
+                                <ul>
+                                    <li>Levantamiento de requisitos</li>
+                                    <li>Análisis y mapeo de procesos</li>
+                                    <li>Evaluación tecnológica</li>
+                                    <li>Asesoría estratégica</li>
+                                </ul>
+                            </div>
+                            <div class="feature-column">
+                                <h4>Ideal para:</h4>
+                                <ul>
+                                    <li>Empresas en transformación digital</li>
+                                    <li>Decisiones de inversión tecnológica</li>
+                                    <li>Selección de herramientas y proveedores</li>
+                                    <li>Capacitación de equipos internos</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-detail-tech">
+                            <span class="tech-tag">Análisis de procesos</span>
+                            <span class="tech-tag">Arquitectura TI</span>
+                            <span class="tech-tag">Documentación</span>
+                            <span class="tech-tag">Capacitación</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRECIOS ========== -->
+    <section class="section section-white" id="precios">
+        <div class="container">
+            <div class="section-header section-header-center fade-in">
+                <span class="section-label">Precios transparentes</span>
+                <h2 class="section-title">Planes y precios</h2>
+                <p class="section-subtitle">Elige el plan que mejor se adapte a tu proyecto. Todos incluyen soporte post-lanzamiento.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Plan Starter -->
+                <div class="pricing-card fade-in">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Starter</h3>
+                        <p class="pricing-desc">Perfecto para comenzar tu presencia online</p>
+                        <div class="pricing-price">
+                            <span class="pricing-from">Desde</span>
+                            <span class="pricing-amount">$290.000</span>
+                            <span class="pricing-currency">CLP</span>
+                        </div>
+                        <span class="pricing-badge">Ideal para emprendedores</span>
+                    </div>
+                    <div class="pricing-features">
+                        <h4>Incluye:</h4>
+                        <ul>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Landing page o sitio de 1 página
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Diseño responsive
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Formulario de contacto
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                SEO básico
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Entrega en 1-2 semanas
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                1 mes de soporte
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="contacto.html" class="btn btn-outline-dark btn-full">Solicitar cotización</a>
+                </div>
+
+                <!-- Plan Professional (Destacado) -->
+                <div class="pricing-card pricing-featured fade-in fade-in-delay-1">
+                    <div class="pricing-ribbon">Más popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Professional</h3>
+                        <p class="pricing-desc">Para negocios que quieren crecer online</p>
+                        <div class="pricing-price">
+                            <span class="pricing-from">Desde</span>
+                            <span class="pricing-amount">$690.000</span>
+                            <span class="pricing-currency">CLP</span>
+                        </div>
+                        <span class="pricing-badge pricing-badge-primary">El más elegido</span>
+                    </div>
+                    <div class="pricing-features">
+                        <h4>Incluye todo lo de Starter, más:</h4>
+                        <ul>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Sitio completo hasta 5 páginas
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Blog o noticias integrado
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Integración con redes sociales
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Google Analytics configurado
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Optimización de velocidad
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                3 meses de soporte
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="contacto.html" class="btn btn-primary btn-full">Solicitar cotización</a>
+                </div>
+
+                <!-- Plan Enterprise -->
+                <div class="pricing-card fade-in fade-in-delay-2">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Enterprise</h3>
+                        <p class="pricing-desc">Proyectos a medida sin límites</p>
+                        <div class="pricing-price">
+                            <span class="pricing-from">Cotización</span>
+                            <span class="pricing-amount pricing-custom">Personalizada</span>
+                        </div>
+                        <span class="pricing-badge">Para proyectos complejos</span>
+                    </div>
+                    <div class="pricing-features">
+                        <h4>Incluye todo lo de Professional, más:</h4>
+                        <ul>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Desarrollo 100% a medida
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Aplicaciones web o de escritorio
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Bases de datos y APIs
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Automatizaciones complejas
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Consultoría estratégica incluida
+                            </li>
+                            <li>
+                                <svg class="check-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 8L6.5 11.5L13 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Soporte continuo (6+ meses)
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="contacto.html" class="btn btn-outline-dark btn-full">Hablemos de tu proyecto</a>
+                </div>
+            </div>
+
+            <!-- Nota aclaratoria -->
+            <div class="pricing-note fade-in">
+                <div class="pricing-note-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M13 16H12V12H11M12 8H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div>
+                    <strong>¿Necesitas algo diferente?</strong>
+                    <p>Los precios son referenciales para desarrollo web. Para <strong>software a medida, automatización o consultoría TI</strong>, cada proyecto se cotiza según alcance y complejidad. <a href="contacto.html">Contáctanos</a> para una propuesta personalizada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="section section-light" id="faq">
+        <div class="container">
+            <div class="section-header section-header-center fade-in">
+                <span class="section-label">Preguntas frecuentes</span>
+                <h2 class="section-title">Resolvemos tus dudas</h2>
+                <p class="section-subtitle">Las preguntas más comunes sobre nuestros servicios y precios.</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>¿Cuánto tiempo toma un proyecto?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Depende del plan: una <strong>landing page</strong> toma entre 1-2 semanas, un <strong>sitio profesional</strong> entre 3-5 semanas, y proyectos <strong>Enterprise</strong> pueden tomar de 2 a 4 meses. Siempre definimos plazos claros antes de comenzar.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>¿Cómo es el proceso de pago?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Trabajamos con un esquema de <strong>50% al inicio y 50% al entregar</strong>. Para proyectos grandes podemos dividir en hitos. Aceptamos transferencia bancaria y otros medios a convenir.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>¿Qué incluye el soporte post-lanzamiento?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Incluye corrección de bugs, ajustes menores de diseño y contenido, y soporte técnico por los medios acordados. Cambios mayores o nuevas funcionalidades se cotizan por separado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>¿Puedo pedir cambios durante el desarrollo?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí. Trabajamos con <strong>revisiones incluidas</strong> en cada etapa (diseño, desarrollo, entrega). Cambios fuera del alcance acordado se presupuestan adicionalmente, pero siempre con tu aprobación previa.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>¿Entregan el código fuente?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>Sí, siempre.</strong> Al finalizar el proyecto te entregamos todo el código fuente, credenciales y documentación necesaria. El proyecto es 100% tuyo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>¿Qué necesito para comenzar?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 16 16" fill="none">
+                            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Solo una <strong>idea clara de lo que necesitas</strong>. Si no la tienes, podemos ayudarte a definirla en una llamada inicial gratuita. También ayuda tener referencias de sitios que te gusten y el contenido (textos, imágenes) si ya lo tienes listo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-section">
+        <div class="cta-bg"></div>
+        <div class="cta-content fade-in">
+            <span class="section-label">¿Listo para comenzar?</span>
+            <h2>Hablemos sobre tu proyecto</h2>
+            <p>Cuéntanos tu idea y te enviamos una propuesta personalizada en menos de 48 horas.</p>
+            <div class="cta-buttons">
+                <a href="contacto.html" class="btn btn-primary">
+                    Solicitar cotización
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/56912345678?text=Hola!%20Quiero%20cotizar%20un%20proyecto" target="_blank" rel="noopener" class="btn btn-outline">
+                    Hablar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-inner container">
+            <p>© 2026 HZEnterprise. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="../index.html">Inicio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/56912345678?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20sus%20servicios" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+            <path d="M8 13V3M8 3L4 7M8 3L12 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/servicios.js"></script>
+</body>
+</html>
